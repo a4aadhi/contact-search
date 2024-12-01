@@ -1,70 +1,87 @@
-Contact Search App
-A React-based contact search app that allows users to filter contacts by multiple fields (First Name, Last Name, Date of Birth, Email, and Phone), display search results in a paginated table format, and view the selected contact’s details.
+# Contact Search App
 
-Features
-Search Filters: Users can search by multiple fields:
-First Name
-Last Name
-Date of Birth
-Email Address
-Phone Number
-Search Results: Display search results in a structured table format.
-Pagination: Handles large datasets by paginating the results.
-Contact Selection: Allows selecting a contact from the results to view detailed information.
-Installation
-Clone this repository to your local machine:
+A simple React app to search, filter, and display contacts in a paginated table format.
 
-bash
-Copy code
-git clone https://github.com/yourusername/contact-search-app.git
-Navigate to the project directory:
+## Table of Contents
 
-bash
-Copy code
-cd contact-search-app
-Install the necessary dependencies:
+- [About](#about)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Search Filters](#search-filters)
+- [Pagination](#pagination)
+- [Technologies Used](#technologies-used)
+- [License](#license)
 
-bash
-Copy code
-npm install
-Start the development server:
+## About
 
-bash
-Copy code
-npm start
-The app will be available at http://localhost:3000.
+This React app allows you to search for contacts from a list, filter them by fields such as First Name, Last Name, Date of Birth, Email Address, and Phone Number. The results are displayed in a table format with pagination. Users can select a contact from the results to view their details.
 
-Folder Structure
-bash
-Copy code
-/contact-search-app
-  /src
-    /components
-      SearchFilters.js        # Component for search input fields
-      ContactsTable.js        # Component to display contacts in a table
-      ContactDetails.js       # Component to display selected contact details
-    App.js                    # Main App component
-    contacts.json             # JSON file with contact data
-    index.js                  # Entry point for React
-  package.json                # Project dependencies
-  README.md                   # Project description and instructions
-Usage
-Search for Contacts
-Use the search filters (First Name, Last Name, Date of Birth, Email, Phone) to search for specific contacts.
-Click Search to apply the filters and see the results displayed in the table.
-View Contact Details
-Click on any contact row in the table to view their detailed information, such as:
-Name
-Email
-Phone
-Address
-Pagination
-The search results are paginated. Use the pagination controls to navigate through different pages of contacts.
-Contact Data Format
-The app expects the following JSON data structure for contacts:
+## Installation
 
-json
-Copy code
+To get started with this app, you'll need to clone the repository and install the necessary dependencies.
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/contact-search-app.git
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd contact-search-app
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+    The app will now be running at `http://localhost:3000`.
+
+## Usage
+
+Once the app is running, you can interact with the following features:
+
+### Search Filters
+
+Use the available search fields (First Name, Last Name, Date of Birth, Email, Phone) to filter the contacts. When you click the **Search** button, the app will update the results based on the filters provided.
+
+### Pagination
+
+Search results are displayed in a paginated table. Use the pagination controls to navigate through the results when there are many contacts.
+
+### View Contact Details
+
+When you click on a row in the search results table, the app will display the selected contact's details, including:
+
+- Name
+- Email
+- Phone
+- Address (if available)
+
+## Search Filters
+
+The following filters are available to search contacts:
+
+- **First Name**: Search by first name.
+- **Last Name**: Search by last name.
+- **Date of Birth**: Search by date of birth.
+- **Email Address**: Search by email.
+- **Phone Number**: Search by phone number.
+
+### Example Contact Data
+
+The contact data is structured as follows:
+
+```json
 [
   {
     "name": "Rajeev Sharma",
@@ -87,11 +104,3 @@ Copy code
     "phone": "2582528583"
   }
 ]
-Technologies Used
-React
-JavaScript (ES6+)
-CSS
-React Paginate (for pagination)
-React Table (for table rendering)
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
