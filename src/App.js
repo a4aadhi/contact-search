@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import contacts from "./data/contacts.json";
+import SearchBar from "./components/searchBar";
+import ResultsTable from "./components/ResultsTable";
+import SelectedContact from "./components/SelectedContact";
+import { Container } from "react-bootstrap";
 
 function App() {
+  const [filteredContacts, setFilteredContacts] = useState(contacts);
+  const [selectedContact, setSelectedContact] = useState(null);
+
+  const handleSearch = (searchCriteria) => {
+    const filtered = contacts.filter((contact) => {
+      return Object.keys(searchCriteria).every((key) => {
+        return (
+          searchCriteria[key] === "" ||
+          String(contact[key] || "")
+            .toLowerCase()
+            .includes(searchCriteria[key].toLowerCase())
+        );
+      });
+    });
+    setFilteredContacts(filtered);
+  };
+
   return (
+    <Container>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Contact Search</h1>
+      <SearchBar onSearch={handleSearch} />
+      <ResultsTable
+        contacts={filteredContacts}
+        onSelectContact={setSelectedContact}
+      />
+      {selectedContact && <SelectedContact contact={selectedContact} />}
     </div>
+  </Container>
+    
   );
 }
 

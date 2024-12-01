@@ -1,0 +1,246 @@
+[
+  {
+    "firstName": "Rajeev ",
+    "lastName" :"Sharma",
+    "dob": "1986-02-12",
+    "email": "rajeevsharma@gmail.com",
+    "phone": "2582528582",
+    "address": "1001 NOBLE ST ST1 ",
+    "city": "FAIRBANKS",
+    "state": "AK",
+    "zip": "99701"
+  },
+  {
+    
+    "firstName": "Eesha ",
+    "lastName" :"Sharma",
+    "dob": "1995-07-04",
+    "email": "eeshasharma@gmail.com",
+    "phone": "  ",
+    "address": "4821 RIDGE TOP CIR ",
+    "city": "ANCHORGE",
+    "state": "AK",
+    "zip": "99508"
+    
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "dob": "1992-03-25",
+    "email": "alice.johnson@example.com",
+    "phone": "234-567-8901",
+    "address": "789 Maple St",
+    "city": "Lincoln",
+    "state": "NE",
+    "zip": "68508"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Brown",
+    "dob": "1980-11-11",
+    "email": "bob.brown@example.com",
+    "phone": "345-678-9012",
+    "address": "123 Birch Rd",
+    "city": "Austin",
+    "state": "TX",
+    "zip": "73301"
+  },
+  {
+    "firstName": "Charlie",
+    "lastName": "Davis",
+    "dob": "1995-06-17",
+    "email": "charlie.davis@example.com",
+    "phone": "456-789-0123",
+    "address": "456 Pine Ave",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80203"
+  },
+  {
+    "firstName": "Diana",
+    "lastName": "Evans",
+    "dob": "1988-02-09",
+    "email": "diana.evans@example.com",
+    "phone": "567-890-1234",
+    "address": "789 Cedar Ln",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85001"
+  },
+  {
+    "firstName": "Edward",
+    "lastName": "Franklin",
+    "dob": "1993-09-12",
+    "email": "edward.franklin@example.com",
+    "phone": "678-901-2345",
+    "address": "321 Spruce St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98101"
+  },
+  {
+    "firstName": "Fiona",
+    "lastName": "Garcia",
+    "dob": "1982-12-05",
+    "email": "fiona.garcia@example.com",
+    "phone": "789-012-3456",
+    "address": "654 Aspen Blvd",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32801"
+  },
+  {
+    "firstName": "George",
+    "lastName": "Harris",
+    "dob": "1990-07-23",
+    "email": "george.harris@example.com",
+    "phone": "890-123-4567",
+    "address": "987 Walnut Ct",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97204"
+  },
+  {
+    "firstName": "Hannah",
+    "lastName": "Irvine",
+    "dob": "1986-05-30",
+    "email": "hannah.irvine@example.com",
+    "phone": "901-234-5678",
+    "address": "123 Willow Way",
+    "city": "Nashville",
+    "state": "TN",
+    "zip": "37201"
+  },
+  {
+    "firstName": "Ian",
+    "lastName": "Jones",
+    "dob": "1998-04-14",
+    "email": "ian.jones@example.com",
+    "phone": "012-345-6789",
+    "address": "456 Poplar Pl",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60601"
+  },
+  {
+    "firstName": "Julia",
+    "lastName": "King",
+    "dob": "1991-10-28",
+    "email": "julia.king@example.com",
+    "phone": "123-456-7891",
+    "address": "789 Cypress Dr",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30301"
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "Lopez",
+    "dob": "1987-01-19",
+    "email": "kevin.lopez@example.com",
+    "phone": "234-567-8902",
+    "address": "123 Sycamore Ln",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77001"
+  },
+  {
+    "firstName": "Laura",
+    "lastName": "Morris",
+    "dob": "1996-08-02",
+    "email": "laura.morris@example.com",
+    "phone": "345-678-9013",
+    "address": "456 Magnolia St",
+    "city": "San Diego",
+    "state": "CA",
+    "zip": "92101"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Nelson",
+    "dob": "1984-10-15",
+    "email": "michael.nelson@example.com",
+    "phone": "456-789-0124",
+    "address": "789 Cherry Blvd",
+    "city": "Boston",
+    "state": "MA",
+    "zip": "02108"
+  },
+  {
+    "firstName": "Nina",
+    "lastName": "O'Connor",
+    "dob": "1992-05-11",
+    "email": "nina.oconnor@example.com",
+    "phone": "567-890-1235",
+    "address": "321 Palm Dr",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94102"
+  },
+  {
+    "firstName": "Oscar",
+    "lastName": "Perez",
+    "dob": "1989-07-07",
+    "email": "oscar.perez@example.com",
+    "phone": "678-901-2346",
+    "address": "654 Fir St",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28202"
+  },
+  {
+    "firstName": "Patricia",
+    "lastName": "Quinn",
+    "dob": "1981-12-22",
+    "email": "patricia.quinn@example.com",
+    "phone": "789-012-3457",
+    "address": "987 Elmwood Ave",
+    "city": "Tampa",
+    "state": "FL",
+    "zip": "33601"
+  },
+  {
+    "firstName": "Quentin",
+    "lastName": "Roberts",
+    "dob": "1994-03-05",
+    "email": "quentin.roberts@example.com",
+    "phone": "890-123-4568",
+    "address": "123 Hickory Rd",
+    "city": "New Orleans",
+    "state": "LA",
+    "zip": "70112"
+  },
+  {
+    "firstName": "Rachel",
+    "lastName": "Smith",
+    "dob": "1990-11-30",
+    "email": "rachel.smith@example.com",
+    "phone": "901-234-5679",
+    "address": "456 Dogwood Ln",
+    "city": "Minneapolis",
+    "state": "MN",
+    "zip": "55401"
+  },
+  {
+    "firstName": "Samuel",
+    "lastName": "Thomas",
+    "dob": "1986-09-09",
+    "email": "samuel.thomas@example.com",
+    "phone": "012-345-6790",
+    "address": "789 Alder Ct",
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  {
+    "firstName": "Tina",
+    "lastName": "Underwood",
+    "dob": "1985-04-18",
+    "email": "tina.underwood@example.com",
+    "phone": "123-456-7892",
+    "address": "123 Redwood Dr",
+    "city": "Cleveland",
+    "state": "OH",
+    "zip": "44101"
+  }
+]
