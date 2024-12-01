@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+Contact Search App
+A React-based contact search app that allows users to filter contacts by multiple fields (First Name, Last Name, Date of Birth, Email, and Phone), display search results in a paginated table format, and view the selected contact’s details.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Search Filters: Users can search by multiple fields:
+First Name
+Last Name
+Date of Birth
+Email Address
+Phone Number
+Search Results: Display search results in a structured table format.
+Pagination: Handles large datasets by paginating the results.
+Contact Selection: Allows selecting a contact from the results to view detailed information.
+Installation
+Clone this repository to your local machine:
 
-## Available Scripts
+bash
+Copy code
+git clone https://github.com/yourusername/contact-search-app.git
+Navigate to the project directory:
 
-In the project directory, you can run:
+bash
+Copy code
+cd contact-search-app
+Install the necessary dependencies:
 
-### `npm start`
+bash
+Copy code
+npm install
+Start the development server:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Folder Structure
+bash
+Copy code
+/contact-search-app
+  /src
+    /components
+      SearchFilters.js        # Component for search input fields
+      ContactsTable.js        # Component to display contacts in a table
+      ContactDetails.js       # Component to display selected contact details
+    App.js                    # Main App component
+    contacts.json             # JSON file with contact data
+    index.js                  # Entry point for React
+  package.json                # Project dependencies
+  README.md                   # Project description and instructions
+Usage
+Search for Contacts
+Use the search filters (First Name, Last Name, Date of Birth, Email, Phone) to search for specific contacts.
+Click Search to apply the filters and see the results displayed in the table.
+View Contact Details
+Click on any contact row in the table to view their detailed information, such as:
+Name
+Email
+Phone
+Address
+Pagination
+The search results are paginated. Use the pagination controls to navigate through different pages of contacts.
+Contact Data Format
+The app expects the following JSON data structure for contacts:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+json
+Copy code
+[
+  {
+    "name": "Rajeev Sharma",
+    "dob": "1986-02-12",
+    "address": "1001 Noble St Ste 1",
+    "city": "Fairbanks",
+    "state": "AK",
+    "zip": "99701",
+    "email": "rajeevsharma@gmail.com",
+    "phone": "2582528582"
+  },
+  {
+    "name": "Eesha Sharma",
+    "dob": "1995-07-04",
+    "address": "4821 Ridge Top Cir",
+    "city": "Anchorage",
+    "state": "AK",
+    "zip": "99508",
+    "email": "eeshasharma@gmail.com",
+    "phone": "2582528583"
+  }
+]
+Technologies Used
+React
+JavaScript (ES6+)
+CSS
+React Paginate (for pagination)
+React Table (for table rendering)
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
